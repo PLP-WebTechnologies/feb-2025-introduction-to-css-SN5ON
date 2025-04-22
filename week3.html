@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charet="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML5 images, Lists, forms and input types</title>
+        <link rel="stylesheet" href="/Styles/assignmentstyle.css">
+        <style>
+            div{
+                border: 3px solid black;
+                padding: 40px;
+            }
+            img{
+                margin: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="highlight">HTML ASSIGMENT TWO</h1>
+        <h3 class="highlight">Ordered list of Food Spice</h3>
+        <ol class="highlight" type="i" start="1">
+            <li>BBQ Chicken Spice</li>
+            <li>Lemon and herb Spice</li>
+            <li>Worcester Spice</li>
+            <li>Rice Spice</li>
+            <li>Portuguesse Chicken Spice</li>
+        </ol>
+        <div>
+        <img src="/feb-2025-introduction-to-html-5-SN5ON/food spice.jpg"  width="600" height="600" alt="Food spice" title="Spice for sell">
+        <img src="/feb-2025-introduction-to-html-5-SN5ON/Spice.jpg" width="600" height="600" alt="spice" title="spices">
+        </div>
+        <h1 class="highlight">HTML TABLE</h1>
+        <table id="tbl_one" border="1">
+            <caption>Contact Information</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Shalom</td>
+                    <td>shalomn@gmail.com</td>
+                    <td>12 Avenue road</td>
+                    <td>+263555669</td>
+                </tr>
+                <tr>
+                    <td>Ama</td>
+                    <td>amamn@gmail.com</td>
+                    <td>13 Avenue road</td>
+                    <td>+263667769</td>
+                </tr>
+                <tr>
+                    <td>Elishama</td>
+                    <td>Elishaman@gmail.com</td>
+                    <td>14 Avenue road</td>
+                    <td>+263778969</td>
+                </tr>
+                <tr>
+                    <td>Daniel</td>
+                    <td>Danieln@gmail.com</td>
+                    <td>15 Avenue road</td>
+                    <td>+263889023</td>
+                </tr>
+                <tr>
+                    <td>Ariel</td>
+                    <td>Arieln@gmail.com</td>
+                    <td>16 Avenue road</td>
+                    <td>+263999012</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1>HTML REGISTRATION FORM</h1>
+        <form>
+        <label for="title">Title:</label>
+
+        <label>Mr.</label>
+        <input type="radio" id="Mr." name="title" value="Mr.">
+        
+        <label>Mrs.</label>
+        <input type="radio" id="Mrs." name="title" value="Mrs.">
+        <br><br>
+        <label for="name">Name:</label>
+        <input type="text" id="user name" name="username"  placeholder="John Doe" required>
+        <br><br>
+        <label for="Email">Email:</label>
+        <input type="text" id="useremail" name="useremail" placeholder="johndoe@gmail.com"  required>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="pass" name="pass" required>
+        <br><br>
+        <label for="BDate">Birthdate:</label>
+        <input type="date" id="bdate" name="bdate" required>
+        <br><br>
+        <label for="Gender">Gender:</label>
+        <input type="radio" id="gender" name="gender" value="female">Female
+        <input type="radio" id="gender" name="gender" value="male">Male
+        <br><br>
+        <label for="Spices">Spice Options:</label>
+        <input type="checkbox" name="Spice" value="BBQ Chicken"> BBQ Chicken
+        <input type="checkbox" name="Spice" value="Lemon and Herb"> Lemon and Herb
+        <input type="checkbox" name="Spice" value="Worcerster"> Worcerster
+        <input type="checkbox" name="Spice" value="Rice Spice"> Rice Spice
+        <input type="checkbox" name="Spice" value="Portuguesse Chicken"> Portuguesse Chicken
+        <br><br>
+        <label for="Harare Suburb's">Harare Suburb's:</label>
+        <select name="Suburb" id="Suburb">
+            <option>--Select Suburb--</option>
+            <option value="Avenues">Avenues</option>
+            <option value="Warren park">Warren Park</option>
+            <option value="Greendale">Greendale</option>
+            <option value="Chitungwiza">Chitungwiza</option>
+            <option value="Borrowdale">Borrowdale</option>
+        </select> 
+        <br><br>
+        <button>Register</button>
+        <input type="button" value="Cancel">
+    </form>
+
+    </body>
+</html>
